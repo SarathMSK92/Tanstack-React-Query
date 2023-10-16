@@ -73,7 +73,7 @@ export default function EditEvent() {
       </>
     );
   }
-
+  console.log(content);
   if (data) {
     content = (
       <EventForm inputData={data} onSubmit={handleSubmit}>
